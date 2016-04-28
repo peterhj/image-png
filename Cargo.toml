@@ -10,7 +10,8 @@ exclude = [
 ]
 
 [dependencies]
-inflate = "0.1.0"
+#inflate = "0.1.0"
+inflate = { path = "../inflate" }
 flate2 = { version = "0.2.11", optional = true }
 libc = "0.2.1"
 num = "0.1.27"
